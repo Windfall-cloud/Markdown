@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Edit</title>
+    <title>Document</title>
+    <script src="http://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+    .notebook,.input,.preview{
+        height: 1000px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .notebook{
+        width: 20%;
+        background-color: bisque;
+        left: 0%;
+    }
+
+    .input{
+        width: 40%;
+        background-color: aquamarine;
+        left: 20%;
+    }
+    
+    .preview{
+        width: 40%;
+        background-color: aqua;
+        left: 60%;
+    }
+    </style>
 </head>
 <body>
-   text 123123 
+    <div id = "notebook">
+        <div class="notebook">ledt</div>
+        <div class="input">mid</div>
+        <div class="preview">right</div>
+    </div>
+    
 </body>
 </html>
